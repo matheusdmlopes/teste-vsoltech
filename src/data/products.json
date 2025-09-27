@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Smartphone Galaxy Pro",
+    "price": 1299.99,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop",
+    "description": "Smartphone premium com 128GB, câmera tripla e tela AMOLED 6.7\""
+  },
+  {
+    "id": "2", 
+    "name": "Notebook UltraBook",
+    "price": 2499.90,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=400&fit=crop",
+    "description": "Notebook ultrafino Intel i7, 16GB RAM, SSD 512GB"
+  },
+  {
+    "id": "3",
+    "name": "Fone Bluetooth Premium",
+    "price": 299.00,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+    "description": "Fone over-ear com cancelamento de ruído ativo"
+  },
+  {
+    "id": "4",
+    "name": "Smartwatch Fitness",
+    "price": 599.99,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+    "description": "Smartwatch com monitor cardíaco, GPS e resistência à água"
+  },
+  {
+    "id": "5",
+    "name": "Tablet Pro 11\"",
+    "price": 899.90,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=400&fit=crop",
+    "description": "Tablet profissional com tela 11\", 256GB e suporte à caneta"
+  },
+  {
+    "id": "6",
+    "name": "Câmera Digital 4K",
+    "price": 1899.00,
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&h=400&fit=crop",
+    "description": "Câmera mirrorless 4K com lente intercambiável"
+  }
+]
