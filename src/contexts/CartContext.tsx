@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
+import { createContext, useReducer, ReactNode, useEffect } from 'react';
 import { Product, CartItem, CartContextType } from '@/types';
 
 type CartAction =
