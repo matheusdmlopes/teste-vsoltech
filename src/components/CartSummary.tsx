@@ -23,45 +23,34 @@ export const CartSummary = () => {
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-sm border p-6">
-      <h3 className="text-lg font-semibold text-gray-900 mb-4">
-        Resumo do Pedido
-      </h3>
-
-      <div className="space-y-3 mb-4">
+    <div className="space-y-4">
+      <div className="space-y-3">
         <div className="flex justify-between text-sm">
-          <span className="text-gray-600">Itens no carrinho:</span>
-          <span className="font-medium">
-            {totalItems} {totalItems === 1 ? 'item' : 'itens'}
-          </span>
-        </div>
-
-        <div className="flex justify-between text-sm">
-          <span className="text-gray-600">Subtotal:</span>
+          <span className="text-gray-600">Subtotal</span>
           <span className="font-medium">{formatPrice(totalPrice)}</span>
         </div>
 
         <div className="flex justify-between text-sm">
-          <span className="text-gray-600">Frete:</span>
-          <span className="font-medium text-green-600">Grátis</span>
+          <span className="text-gray-600">Tax</span>
+          <span className="font-medium">R$ 0,00</span>
         </div>
 
-        <hr className="my-3" />
+        <hr className="border-gray-200" />
 
-        <div className="flex justify-between text-lg font-semibold">
-          <span>Total:</span>
+        <div className="flex justify-between text-base font-semibold">
+          <span>Total</span>
           <span className="text-blue-600">{formatPrice(totalPrice)}</span>
         </div>
       </div>
 
       <div className="space-y-2">
-        <Button className="w-full" size="lg">
-          Finalizar Compra
+        <Button className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg font-medium">
+          Finalizar Compra →
         </Button>
-        
-        <Button 
-          variant="secondary" 
-          className="w-full" 
+
+        <Button
+          variant="secondary"
+          className="w-full"
           onClick={clearCart}
         >
           Limpar Carrinho

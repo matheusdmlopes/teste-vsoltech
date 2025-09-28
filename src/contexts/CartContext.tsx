@@ -91,7 +91,7 @@ export const CartProvider = ({ children }: CartProviderProps) => {
         const parsedCart = JSON.parse(savedCart);
         dispatch({ type: 'LOAD_CART', payload: parsedCart });
       } catch (error) {
-        console.error('Error loading cart from localStorage:', error);
+        console.error('Erro ao carregar carrinho:', error);
       }
     }
   }, []);

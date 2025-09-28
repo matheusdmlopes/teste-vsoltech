@@ -14,7 +14,6 @@ export const CartButton = () => {
   const openCart = () => setIsCartOpen(true);
   const closeCart = () => setIsCartOpen(false);
 
-  // Animação quando itens são adicionados
   useEffect(() => {
     if (totalItems > 0) {
       setIsAnimating(true);
