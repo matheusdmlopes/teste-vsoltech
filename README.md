@@ -115,14 +115,6 @@ src/
 - **Implementação simples**: useEffect para sincronização automática
 - **Fallback seguro**: Try/catch para lidar com erros de serialização
 
-### **Layout do Carrinho: Drawer Lateral**
-
-**Por que drawer em vez de modal ou página separada?**
-
-- **UX superior**: Usuário mantém contexto da loja enquanto gerencia carrinho
-- **Mobile-friendly**: Funciona bem em dispositivos móveis
-- **Padrão familiar**: Comportamento esperado em e-commerces modernos
-
 ### **Estrutura de Componentes: Modular**
 
 - **ProductCard**: Reutilizável, responsivo, com animações hover
